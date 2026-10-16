@@ -1,0 +1,9 @@
+const adminPin = 'MySecretAdminPin123';
+
+localStorage.setItem('mgm_custom_passcodes', JSON.stringify({ ADMIN: adminPin }));
+localStorage.setItem('mgm_role', 'ADMIN');
+localStorage.setItem('mgm_is_logged_in', 'true');
+localStorage.setItem('mgm_dept', 'BCA');
+localStorage.setItem('mgm_session_pass', adminPin);
+localStorage.setItem('mgm_remember_pass', adminPin);
+location.reload();
