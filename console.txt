@@ -1,4 +1,4 @@
-const adminPin = 'MySecretAdminPin123';
+const adminPin = 'adminmahid';
 
 localStorage.setItem('mgm_custom_passcodes', JSON.stringify({ ADMIN: adminPin }));
 localStorage.setItem('mgm_role', 'ADMIN');
